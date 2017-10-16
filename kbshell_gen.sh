@@ -22,7 +22,7 @@ echo "// Copyright 2017 MIT License${newline}" >> kbshell_cmds.c
 echo "#include \"kbshell_cli.h\"${newline}" >> kbshell_cmds.c
 echo "kbshell_cmd_t kbshell_cmds[] =${newline}{${newline}$kbshell_cmds};" >> kbshell_cmds.c
 echo "//               kbshell_cmds.h" > include/kbshell_cmds.h
-echo "//        Command enums for insieme shell" >> include/kbshell_cmds.h
+echo "//        Command enums for KB shell" >> include/kbshell_cmds.h
 echo "//               Author: Kiran Kotla" >> include/kbshell_cmds.h
 echo "// Auto generated file, Please do not edit" >> include/kbshell_cmds.h
 echo "// Copyright 2017 MIT License${newline}" >> include/kbshell_cmds.h
